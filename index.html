@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DM Cam (beta)</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<section class="portada">
+	<div class="logo">
+		<img src="img/logo.png"/>
+	</div>
+	<div class="titulo">
+		<h1 class="t1">DM CAM</h1>
+		<h3 class="t3">El arte de escribir con luz</h3>
+	</div>
+</section>
+<nav class="barra">
+	<ul>
+    <li><a href="#acerca">Acerca</a></li>
+    <li><a href="#portafolio">Portafolio</a></li>
+		<li><a href="#blog">Blog</a></li>
+		<li><a href="#contacto">Contacto</a></li>
+	</ul>
+</nav>
+<section class="acerca" id="acerca">
+	<div class="texto">
+		<p>El arte de escribir con luz</p>
+	</div>
+
+	<div class="persona">
+		<img src="img/dn.jpg"/>
+	</div>
+</section>
+<nav class="barra">
+	<ul>
+		<li><h2 class="t2" id="portafolio">Portafolio</h2></li>
+		<!-- PORTAFOLIO FILTRABLE / EN PROCESO
+		<li>
+			<select>
+				<option value="bodas">Bodas</option>
+				<option value="retratos">Retratos</option>
+				<option value="sesiones">Sesiones</option>
+			</select>
+		</li> -->
+	</ul>
+</nav> 
+
+<div id="exibid" class="xb_photoswipe">
+	<script>
+		(function(s,t,y,l,e){
+			y=[].concat(y);for(l=0;l<y.length;l++){e=s.createElement(t);e.rel="stylesheet";e.href=y[l];s.getElementsByTagName("head")[0].appendChild(e)};
+		})(document,"link",["css/exibid_photoswipe-styles.css", "css/exibid_default-skin.css"]);
+		(function(ex,h,i,b,e,o){
+			ex[e]=ex[e]||function(){(ex[e].a=ex[e].a||[]).push(arguments)};b=[].concat(b);for(var l=0;l<b.length;l++){o=ex[e][b[l]]||h.createElement(i);o.async=1;o.src=b[l];h.getElementsByTagName("head")[0].appendChild(o);ex[e][b[l]]=o;}
+		})(window,document,"script",["js/exibid_photoswipe.js", "js/exibid_photoswipe-ui-default.js"],"xb_photoswipe");
+	</script>
+	<div class="xbps-container">
+		<div class="xbps-inner">
+			<ul>
+				<li>
+					<figure>
+						<a href="image/exibid_1.jpg" data-size="1024x1024">
+							<img src="image/exibid_1_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_2.jpg" data-size="1024x1024">
+							<img src="image/exibid_2_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_3.jpg" data-size="1024x1024">
+							<img src="image/exibid_3_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_4.jpg" data-size="1024x1024">
+							<img src="image/exibid_4_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_5.jpg" data-size="1024x1024">
+							<img src="image/exibid_5_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_6.jpg" data-size="1024x1024">
+							<img src="image/exibid_6_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_7.jpg" data-size="1024x1024">
+							<img src="image/exibid_7_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a href="image/exibid_8.jpg" data-size="1024x1024">
+							<img src="image/exibid_8_thumb.jpg" data-size="400x400" />
+						</a>
+					</figure>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script>
+		var el = document.scripts[document.scripts.length-1].parentNode;
+		var exibidOptions = {
+			counterEl: false, // Display the image counter?
+			zoomEl: false, // Display the zoom button?
+			fullscreenEl: false, // Display the fullscreen button?
+			shareEl: false, // Display the share button?
+			closeOnScroll: false,
+			captionEl: false, // Display the caption?
+			barsSize: {top:0,bottom:0}, // No captions, no bar
+			closeEl: true // Display the close button?
+		};
+		window.xb_photoswipe(el.id,exibidOptions);
+	</script>
+</div>
+
+<nav class="barra">
+	<ul>
+		<li><h2 class="t2">Blog</h2></li>
+		<!-- PORTAFOLIO FILTRABLE / EN PROCESO
+		<li>
+			<select>
+				<option value="bodas">Bodas</option>
+				<option value="retratos">Retratos</option>
+				<option value="sesiones">Sesiones</option>
+			</select>
+		</li> -->
+	</ul>
+</nav> 
+
+<section class="blog" id="blog">
+			<article class="post">
+					<a href="#entrada"><img src="img/1.jpg" alt=""/>
+					<div class="descripcion">
+						<h3>Entrada 0</a></h3>
+					</div>
+			</article>
+			<article class="post">
+					<a href="#entrada"><img src="img/2.jpg" alt=""/>
+					<div class="descripcion">
+						<h3>Entrada 1</a></h3>
+					</div>
+			</article>
+			<article class="post">
+					<a href="#entrada"><img src="img/3.jpg" alt=""/>
+					<div class="descripcion">
+					<h3>Entrada 2</a></h3>
+					</div>
+			</article>
+			<article class="post">
+					<a href="#entrada"><img src="img/4.jpg" alt=""/>
+					<div class="descripcion">
+						<h3>Entrada 3</a></h3>
+					</div>
+			</article>
+			<article class="post">
+					<a href="#entrada"><img src="img/5.jpg" alt=""/>
+					<div class="descripcion">
+					<h3>Entrada 4</a></h3>
+					</div>
+			</article>
+			<article class="post">
+					<a href="#entrada"><img src="img/6.jpg" alt=""/>
+					<div class="descripcion">
+					<h3>Entrada 5</a></h3>
+					</div>
+			</article>	
+</section>
+	
+	<nav class="barra">
+	<ul>
+		<li><h2 class="t2">Contacto</h2></li>
+		<!-- PORTAFOLIO FILTRABLE / EN PROCESO
+		<li>
+			<select>
+				<option value="bodas">Bodas</option>
+				<option value="retratos">Retratos</option>
+				<option value="sesiones">Sesiones</option>
+			</select>
+		</li> -->
+	</ul>
+</nav>
+	
+	
+<section class="contacto" id="contacto">
+	<div class="info">
+        <img src="img/dn.jpg" alt="Logo" width="128" heighT="128">
+        <a href="tel:+525527552719"><strong>Telefono: </strong><span>5527552719</span></a>
+        <a href="mailto:dn.mateos@gmail.com"><strong>Correo: </strong><span>dn.mateos@gmail.com</span></a>
+     </div>
+     <form class="formulario">
+        <div class="cuadrito">
+            <label for="nombre">Nombre</label>
+            <input type="text" required value="Escribe tu nombre aquí" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required value="Escribe tu correo aquí" required id="email" name="email"/>
+        
+        </div>
+        <div class="cuadrote">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input class="boton" type="submit" cvalue="Enviar"/>
+        </div>
+    </form>
+</section>
+
+</body>
+</html>
